@@ -34,3 +34,11 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# testing
+/lib/theory_utils.ts
+/types/theory_index.d.ts
+/constants/theo_index.ts
+/app/custom_globals.css
+/public/icons_pack
+
