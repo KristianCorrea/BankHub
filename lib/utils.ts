@@ -4,3 +4,15 @@ import { twMerge } from "tailwind-merge"
 export function cn(...inputs: ClassValue[]) {
   return twMerge(clsx(inputs))
 }
+
+// Possibly no longer needed. react-countup has formatting built in.
+
+// export function formatAmount(amount: number): string {
+//   const formatter = new Intl.NumberFormat("en-US", {
+//     style: "currency",
+//     currency: "USD",
+//     minimumFractionDigits: 2,
+//   });
+
+//   return formatter.format(amount);
+// }
